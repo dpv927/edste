@@ -1,0 +1,76 @@
+body {
+    margin-left: 20%;
+    margin-right: 20%;
+    background: #2b2a33;
+    color:#c9d1d9;
+    font-family: Consolas, Helvetica, sans-serif;
+}
+
+.code {
+    font-family: Consolas, Helvetica, sans-serif;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 7px;
+    margin-bottom: 10px;
+    background: #282c34; 
+    color: #ffffff;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+input {
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: #61afef;
+}
+
+#singleLineComment { color: #5c6370; }
+#multiLineComment { color: #5c6370; }
+
+#javadoc { color: #5c6370; }
+#javadocLink { color: #e5c07b; }
+#javadocTag { 
+    color: #c678dd;
+    font-weight: bold;
+}
+#javadocKeyword { color: #d19a66; }
+
+#keyword { color: #c678dd; }
+
+#class { color: #e5c07b; }
+#enum {color: #e5c07b; }
+#interface { color: #e5c07b; }
+
+#method {color: #61afef; }
+#methodDeclaration {color: #61afef; }
+#staticMethod {color: #61afef; }
+#inheritedMethod {color: #61afef; }  
+#abstractMethod {color: #61afef; }
+
+#bracket { color: #abb2bf; }
+#number { color: #d19a66; }
+#string { color: #98c379; }
+#operator { color: #abb2bf; }
+
+#field { color: #e06c75; }
+#staticField { 
+    color: #e06c75;
+    font-style: italic;
+}
+#staticFinalField { 
+    color: #e06c75; 
+    font-style: italic;
+    font-weight: bold;
+}
+#parameterVariable { color: #d19a66; } 
+#localVariableDeclaration { color: #abb2bf; } 
+#localVariable { color: #abb2bf; }
+#costant { color: #e06c75; }
+
+#deprecatedMember { 
+    color: #ff8c00;
+    text-decoration: overline;
+}
