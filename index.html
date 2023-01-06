@@ -72,6 +72,17 @@
         
         <section class="main">
             <section class="inputs">
+
+                <p>
+                    <b><u>NOTE:</u></b> First, try some colours in hexadecimal notation and see the results above. If the color doesn't apply inmediately,
+                    then press enter in the desired input. Then, when you have finished the color scheme, you can copy (manually) the colours
+                    and paste them in your own .xml theme file.<br><br>
+
+                    <b><u>IMPORTANT</u></b>: Not all the customizable colors are displayed here, so you must try them in your own eclipse IDE. You must know that when importing a .xml
+                    theme file in Eclipse that you have modified, and you have already that theme added in Eclipse, you must change the theme name in the .xml
+                    settings. Otherwise, Eclipse will ignore the theme.
+                <p>
+                <br>
                 
                 Single Line Comment: <input id="input_1" type="text"onkeydown="init_input('1','singleLineComment');" maxlength="6"><br>
                 Multi Line Comment: <input id="input_2" type="text" onkeydown="init_input('2','multiLineComment');" maxlength="6"><br>
@@ -122,7 +133,6 @@
                 Foreground :  <input id="input_29" type="text" onkeydown="init_foreground();" maxlength="6"><br>
                 Background :  <input id="input_30" type="text" onkeydown="init_background();" maxlength="6"><br>
                 <br>
-
             </section>
         </section>
         <script src="javascript/main.js"></script>
